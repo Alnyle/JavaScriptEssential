@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Employee Management System</title>
+    <meta charset="UTF-8">
+    <title>Book Management System</title>
 </head>
 <body>
-  <h1>Hello world</h1>
-<script src="app.js"></script>
+  <h1>Book Management System</h1>
+
+  <label for="bookName">Book Name: </label><br>
+  <input type="text" id="bookName"><br><br>
+
+  <label for="authorName">Author Name</label><br>
+  <textarea id="authorName" rows="4"></textarea><br><br>
+
+  <label for="bookDescription">Book Description</label><br>
+  <textarea id="bookDescription" rows="4"></textarea><br><br>
+
+  <label for="pageNumbers">No. of Pages Time</label><br>
+  <input type="number" id="pagesNumber"><br><br>
+
+  <button id="addBtn">Add Book</button>
+
+  <h2>Books</h2>
+  <div id="books">
+    <!-- Book will be display here -->
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
